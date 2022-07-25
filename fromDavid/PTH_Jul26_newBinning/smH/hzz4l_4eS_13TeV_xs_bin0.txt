@@ -1,0 +1,27 @@
+imax 1
+jmax *
+kmax *
+------------
+shapes * * ../hzz4l_4eS_13TeV_xs_SM_125_pT4l_v3.Databin0.root w:$PROCESS
+------------
+bin hzz_PTH_0_15_cat4e
+observation -1
+------------
+## mass window [105.0,160.0]
+bin hzz_PTH_0_15_cat4e hzz_PTH_0_15_cat4e hzz_PTH_0_15_cat4e hzz_PTH_0_15_cat4e hzz_PTH_0_15_cat4e hzz_PTH_0_15_cat4e hzz_PTH_0_15_cat4e hzz_PTH_0_15_cat4e hzz_PTH_0_15_cat4e hzz_PTH_0_15_cat4e hzz_PTH_0_15_cat4e hzz_PTH_0_15_cat4e hzz_PTH_0_15_cat4e hzz_PTH_0_15_cat4e 
+process smH_PTH_0_15 smH_PTH_15_30 smH_PTH_30_45 smH_PTH_45_80 smH_PTH_80_120 smH_PTH_120_200 smH_PTH_200_350 smH_PTH_350_600 smH_PTH_GT600 out_trueH fakeH bkg_qqzz bkg_ggzz bkg_zjets 
+process -1 -2 -3 -4 -5 -6 -7 -8 -9 1 2 3 4 5 
+rate 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 17.20685193197623 1.91753937481043 5.55303599685431 
+------------
+lumi_13TeV_2016_uncorrelated lnN 1.01 1.01 1.01 1.01 1.01 1.01 1.01 1.01 1.01 1.01 1.01 1.01 1.01 -
+QCDscale_VV lnN - - - - - - - - - - - 1.0325/0.958 - - 
+pdf_gg lnN - - - - - - - - - - - - 1.032/0.968 - 
+CMS_zz4l_sigma_e_sig_2016 param 0.0 0.2
+kfactor_ggzz lnN - - - - - - - - - - - - 1.1 - 
+pdf_qqbar lnN - - - - - - - - - - - 1.031/0.966 - - 
+CMS_zz4l_mean_e_sig_2016 param 0.0 1.0
+CMS_zz4l_n_sig_2_2016 param 0.0 0.05
+QCDscale_ggVV lnN - - - - - - - - - - - - 1.039/0.961 - 
+lumi_13TeV_correlated_16_17_18 lnN 1.006 1.006 1.006 1.006 1.006 1.006 1.006 1.006 1.006 1.006 1.006 1.006 1.006 -
+CMS_eff_e lnN 0.891/1.093 0.891/1.093 0.891/1.093 0.891/1.093 0.891/1.093 0.891/1.093 0.891/1.093 0.891/1.093 0.891/1.093 0.891/1.093 0.891/1.093 0.891/1.093 0.891/1.093 -
+CMS_hzz4e_Zjets_2016 lnN - - - - - - - - - - - - - 0.598182/1.43059 
