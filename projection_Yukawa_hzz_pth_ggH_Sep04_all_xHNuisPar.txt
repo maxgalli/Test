@@ -109,3 +109,4 @@ CMS_zz4l_n_sig_3_2017  param  0.0 0.05
 CMS_zz4l_mean_e_sig_2017  param  0.0 1.0
 CMS_zz4l_mean_e_sig_2018  param  0.0 1.0
 CMS_zz4l_n_sig_2_2016  param  0.0 0.05
+lumiscale rateParam * * 1
